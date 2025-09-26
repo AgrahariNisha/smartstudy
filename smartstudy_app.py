@@ -1,8 +1,7 @@
 # Install dependencies first:
-# pip install streamlit langchain-community faiss-cpu sentence-transformers transformers requests
+# pip install streamlit langchain-huggingface langchain-community faiss-cpu sentence-transformers transformers requests
 
-from langchain.embeddings import HuggingFaceEmbeddings
-
+from langchain_huggingface import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain.docstore.document import Document
 from langchain.chains import RetrievalQA
