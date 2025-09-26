@@ -1,3 +1,8 @@
 streamlit
 transformers
 torch
+langchain
+langchain-huggingface
+faiss-cpu
+sentence-transformers
+requests
